@@ -4241,3 +4241,604 @@ run
 run
 run
 run
+# Compile of booth_multiplier.vhd failed with 2 errors.
+# Compile of shift_reg.vhd was successful.
+# Compile of reg.vhd was successful.
+# Compile of add_sub.vhd was successful.
+# Compile of counter.vhd was successful.
+# Compile of mux.vhd was successful.
+# Compile of mux3.vhd was successful.
+# Compile of Booth_Multiplier_TB.vhd was successful.
+# 8 compiles, 1 failed with 2 errors. 
+# Compile of booth_multiplier.vhd was successful.
+# Compile of shift_reg.vhd was successful.
+# Compile of reg.vhd was successful.
+# Compile of add_sub.vhd was successful.
+# Compile of counter.vhd was successful.
+# Compile of mux.vhd was successful.
+# Compile of mux3.vhd was successful.
+# Compile of Booth_Multiplier_TB.vhd was successful.
+# 8 compiles, 0 failed with no errors. 
+restart
+# Refreshing C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/work.boothmul_tb(tb)
+# Loading work.boothmul_tb(tb)
+# Refreshing C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/work.booth_multiplier(radix4)
+# Loading work.booth_multiplier(radix4)
+# Refreshing C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/work.booth_multiplier_datapath(radix4)
+# Loading work.booth_multiplier_datapath(radix4)
+# Refreshing C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/work.reg(arch)
+# Loading work.reg(arch)
+# Refreshing C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/work.mux3(arch)
+# Loading work.mux3(arch)
+# Refreshing C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/work.add_sub(arch)
+# Loading work.add_sub(arch)
+# ** Fatal: (vsim-3348) Port length (4) does not match actual length (5) for port '/boothmul_tb/UUT/datapath/ADDSUB/in1'.
+#    Time: 0 ns  Iteration: 0  Instance: /boothmul_tb/UUT/datapath/ADDSUB File: C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/add_sub.vhd Line: 7
+# FATAL ERROR while loading design
+# Compile of booth_multiplier.vhd was successful.
+# Compile of shift_reg.vhd was successful.
+# Compile of reg.vhd was successful.
+# Compile of add_sub.vhd was successful.
+# Compile of counter.vhd was successful.
+# Compile of mux.vhd was successful.
+# Compile of mux3.vhd was successful.
+# Compile of Booth_Multiplier_TB.vhd was successful.
+# 8 compiles, 0 failed with no errors. 
+vsim -gui -novopt work.boothmul_tb
+# vsim -gui -novopt work.boothmul_tb 
+# Loading std.standard
+# Refreshing C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/work.boothmul_tb(tb)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.boothmul_tb(tb)
+# Refreshing C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/work.booth_multiplier(radix4)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.booth_multiplier(radix4)
+# Refreshing C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/work.booth_multiplier_datapath(radix4)
+# Loading work.booth_multiplier_datapath(radix4)
+# Refreshing C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/work.reg(arch)
+# Loading work.reg(arch)
+# Refreshing C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/work.mux3(arch)
+# Loading work.mux3(arch)
+# Refreshing C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/work.add_sub(arch)
+# Loading work.add_sub(arch)
+# ** Fatal: (vsim-3348) Port length (4) does not match actual length (5) for port '/boothmul_tb/UUT/datapath/ADDSUB/in2'.
+#    Time: 0 ns  Iteration: 0  Instance: /boothmul_tb/UUT/datapath/ADDSUB File: C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/add_sub.vhd Line: 7
+# FATAL ERROR while loading design
+# Error loading design
+# Compile of booth_multiplier.vhd was successful.
+# Compile of shift_reg.vhd was successful.
+# Compile of reg.vhd was successful.
+# Compile of add_sub.vhd was successful.
+# Compile of counter.vhd was successful.
+# Compile of mux.vhd was successful.
+# Compile of mux3.vhd was successful.
+# Compile of Booth_Multiplier_TB.vhd was successful.
+# 8 compiles, 0 failed with no errors. 
+vsim -gui -novopt work.boothmul_tb
+# vsim -gui -novopt work.boothmul_tb 
+# Loading std.standard
+# Refreshing C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/work.boothmul_tb(tb)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.boothmul_tb(tb)
+# Refreshing C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/work.booth_multiplier(radix4)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.booth_multiplier(radix4)
+# Refreshing C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/work.booth_multiplier_datapath(radix4)
+# Loading work.booth_multiplier_datapath(radix4)
+# Refreshing C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/work.reg(arch)
+# Loading work.reg(arch)
+# Refreshing C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/work.mux3(arch)
+# Loading work.mux3(arch)
+# Refreshing C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/work.add_sub(arch)
+# Loading work.add_sub(arch)
+# ** Fatal: (vsim-3348) Port length (4) does not match actual length (5) for port '/boothmul_tb/UUT/datapath/ADDSUB/out1'.
+#    Time: 0 ns  Iteration: 0  Instance: /boothmul_tb/UUT/datapath/ADDSUB File: C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/add_sub.vhd Line: 9
+# FATAL ERROR while loading design
+# Error loading design
+# Compile of booth_multiplier.vhd was successful.
+# Compile of shift_reg.vhd was successful.
+# Compile of reg.vhd was successful.
+# Compile of add_sub.vhd was successful.
+# Compile of counter.vhd was successful.
+# Compile of mux.vhd was successful.
+# Compile of mux3.vhd was successful.
+# Compile of Booth_Multiplier_TB.vhd was successful.
+# 8 compiles, 0 failed with no errors. 
+vsim -gui -novopt work.boothmul_tb
+# vsim -gui -novopt work.boothmul_tb 
+# Loading std.standard
+# Refreshing C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/work.boothmul_tb(tb)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.boothmul_tb(tb)
+# Refreshing C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/work.booth_multiplier(radix4)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.booth_multiplier(radix4)
+# Refreshing C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/work.booth_multiplier_datapath(radix4)
+# Loading work.booth_multiplier_datapath(radix4)
+# Refreshing C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/work.reg(arch)
+# Loading work.reg(arch)
+# Refreshing C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/work.mux3(arch)
+# Loading work.mux3(arch)
+# Refreshing C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/work.add_sub(arch)
+# Loading work.add_sub(arch)
+# Refreshing C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/work.shift_reg(arch)
+# Loading work.shift_reg(arch)
+# Refreshing C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/work.booth_multiplier_controller(radix4)
+# Loading work.booth_multiplier_controller(radix4)
+# Refreshing C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/work.counter(arch)
+# Loading work.counter(arch)
+# ** Fatal: (vsim-3421) Value 5 is out of range 0 to 4.
+#    Time: 0 ns  Iteration: 0  Process: /boothmul_tb/UUT/datapath/line__42 File: C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/booth_multiplier.vhd
+# FATAL ERROR while loading design
+# Error loading design
+# Compile of booth_multiplier.vhd was successful.
+# Compile of shift_reg.vhd was successful.
+# Compile of reg.vhd was successful.
+# Compile of add_sub.vhd was successful.
+# Compile of counter.vhd was successful.
+# Compile of mux.vhd was successful.
+# Compile of mux3.vhd was successful.
+# Compile of Booth_Multiplier_TB.vhd was successful.
+# 8 compiles, 0 failed with no errors. 
+vsim -gui -novopt work.boothmul_tb
+# vsim -gui -novopt work.boothmul_tb 
+# Loading std.standard
+# Refreshing C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/work.boothmul_tb(tb)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.boothmul_tb(tb)
+# Refreshing C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/work.booth_multiplier(radix4)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.booth_multiplier(radix4)
+# Refreshing C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/work.booth_multiplier_datapath(radix4)
+# Loading work.booth_multiplier_datapath(radix4)
+# Refreshing C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/work.reg(arch)
+# Loading work.reg(arch)
+# Refreshing C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/work.mux3(arch)
+# Loading work.mux3(arch)
+# Refreshing C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/work.add_sub(arch)
+# Loading work.add_sub(arch)
+# Refreshing C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/work.shift_reg(arch)
+# Loading work.shift_reg(arch)
+# Refreshing C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/work.booth_multiplier_controller(radix4)
+# Loading work.booth_multiplier_controller(radix4)
+# Refreshing C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/work.counter(arch)
+# Loading work.counter(arch)
+# ** Fatal: (vsim-3421) Value 5 is out of range 0 to 4.
+#    Time: 0 ns  Iteration: 0  Process: /boothmul_tb/UUT/datapath/line__44 File: C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/booth_multiplier.vhd
+# FATAL ERROR while loading design
+# Error loading design
+# Compile of booth_multiplier.vhd was successful.
+# Compile of shift_reg.vhd was successful.
+# Compile of reg.vhd was successful.
+# Compile of add_sub.vhd was successful.
+# Compile of counter.vhd was successful.
+# Compile of mux.vhd was successful.
+# Compile of mux3.vhd was successful.
+# Compile of Booth_Multiplier_TB.vhd was successful.
+# 8 compiles, 0 failed with no errors. 
+vsim -gui -novopt work.boothmul_tb
+# vsim -gui -novopt work.boothmul_tb 
+# Loading std.standard
+# Refreshing C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/work.boothmul_tb(tb)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.boothmul_tb(tb)
+# Refreshing C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/work.booth_multiplier(radix4)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.booth_multiplier(radix4)
+# Refreshing C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/work.booth_multiplier_datapath(radix4)
+# Loading work.booth_multiplier_datapath(radix4)
+# Refreshing C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/work.reg(arch)
+# Loading work.reg(arch)
+# Refreshing C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/work.mux3(arch)
+# Loading work.mux3(arch)
+# Refreshing C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/work.add_sub(arch)
+# Loading work.add_sub(arch)
+# Refreshing C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/work.shift_reg(arch)
+# Loading work.shift_reg(arch)
+# Refreshing C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/work.booth_multiplier_controller(radix4)
+# Loading work.booth_multiplier_controller(radix4)
+# Refreshing C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/work.counter(arch)
+# Loading work.counter(arch)
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: moham  Hostname: DESKTOP-MHO5IB6  ProcessID: 8664
+# 
+#           Attempting to use alternate WLF file "./wlft2g1449".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlft2g1449
+# 
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /boothmul_tb/UUT/datapath/ADDSUB
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /boothmul_tb/UUT/datapath/ADDSUB
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /boothmul_tb/UUT/datapath/ADDSUB
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /boothmul_tb/UUT/datapath/ADDSUB
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /boothmul_tb/UUT/datapath/ADDSUB
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /boothmul_tb/UUT/datapath/ADDSUB
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /boothmul_tb/UUT/datapath/ADDSUB
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 3  Instance: /boothmul_tb/UUT/datapath/ADDSUB
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 0  Instance: /boothmul_tb/UUT/controller/counter
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 0  Instance: /boothmul_tb/UUT/controller/counter
+run
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 210 ns  Iteration: 1  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 210 ns  Iteration: 1  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 210 ns  Iteration: 1  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 210 ns  Iteration: 1  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 210 ns  Iteration: 1  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 210 ns  Iteration: 1  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 210 ns  Iteration: 1  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 210 ns  Iteration: 1  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 210 ns  Iteration: 2  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 210 ns  Iteration: 2  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 210 ns  Iteration: 2  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 210 ns  Iteration: 2  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 210 ns  Iteration: 2  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 210 ns  Iteration: 2  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 210 ns  Iteration: 2  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 210 ns  Iteration: 2  Instance: /boothmul_tb/UUT/datapath/MUX3
+run
+run
+run
+# Compile of booth_multiplier.vhd was successful.
+# Compile of shift_reg.vhd was successful.
+# Compile of reg.vhd was successful.
+# Compile of add_sub.vhd was successful.
+# Compile of counter.vhd was successful.
+# Compile of mux.vhd was successful.
+# Compile of mux3.vhd was successful.
+# Compile of Booth_Multiplier_TB.vhd was successful.
+# 8 compiles, 0 failed with no errors. 
+# Load canceled
+restart
+# Refreshing C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/work.boothmul_tb(tb)
+# Loading work.boothmul_tb(tb)
+# Refreshing C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/work.booth_multiplier(radix4)
+# Loading work.booth_multiplier(radix4)
+# Refreshing C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/work.booth_multiplier_datapath(radix4)
+# Loading work.booth_multiplier_datapath(radix4)
+# Refreshing C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/work.reg(arch)
+# Loading work.reg(arch)
+# Refreshing C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/work.mux3(arch)
+# Loading work.mux3(arch)
+# Refreshing C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/work.add_sub(arch)
+# Loading work.add_sub(arch)
+# Refreshing C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/work.shift_reg(arch)
+# Loading work.shift_reg(arch)
+# Refreshing C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/work.booth_multiplier_controller(radix4)
+# Loading work.booth_multiplier_controller(radix4)
+# Refreshing C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/work.counter(arch)
+# Loading work.counter(arch)
+# ** Fatal: (vsim-3421) Value 4 is out of range 0 to 3.
+#    Time: 0 ns  Iteration: 0  Process: /boothmul_tb/UUT/datapath/line__35 File: C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/booth_multiplier.vhd
+# FATAL ERROR while loading design
+# Compile of booth_multiplier.vhd was successful.
+# Compile of shift_reg.vhd was successful.
+# Compile of reg.vhd was successful.
+# Compile of add_sub.vhd was successful.
+# Compile of counter.vhd was successful.
+# Compile of mux.vhd was successful.
+# Compile of mux3.vhd was successful.
+# Compile of Booth_Multiplier_TB.vhd was successful.
+# 8 compiles, 0 failed with no errors. 
+vsim -gui -novopt work.boothmul_tb
+# vsim -gui -novopt work.boothmul_tb 
+# Loading std.standard
+# Refreshing C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/work.boothmul_tb(tb)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.boothmul_tb(tb)
+# Refreshing C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/work.booth_multiplier(radix4)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.booth_multiplier(radix4)
+# Refreshing C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/work.booth_multiplier_datapath(radix4)
+# Loading work.booth_multiplier_datapath(radix4)
+# Refreshing C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/work.reg(arch)
+# Loading work.reg(arch)
+# Refreshing C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/work.mux3(arch)
+# Loading work.mux3(arch)
+# Refreshing C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/work.add_sub(arch)
+# Loading work.add_sub(arch)
+# Refreshing C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/work.shift_reg(arch)
+# Loading work.shift_reg(arch)
+# Refreshing C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/work.booth_multiplier_controller(radix4)
+# Loading work.booth_multiplier_controller(radix4)
+# Refreshing C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/work.counter(arch)
+# Loading work.counter(arch)
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: moham  Hostname: DESKTOP-MHO5IB6  ProcessID: 8664
+# 
+#           Attempting to use alternate WLF file "./wlftksq1an".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftksq1an
+# 
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /boothmul_tb/UUT/datapath/ADDSUB
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /boothmul_tb/UUT/datapath/ADDSUB
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /boothmul_tb/UUT/datapath/ADDSUB
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /boothmul_tb/UUT/datapath/ADDSUB
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /boothmul_tb/UUT/datapath/ADDSUB
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /boothmul_tb/UUT/datapath/ADDSUB
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /boothmul_tb/UUT/datapath/ADDSUB
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 3  Instance: /boothmul_tb/UUT/datapath/ADDSUB
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 0  Instance: /boothmul_tb/UUT/controller/counter
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 0  Instance: /boothmul_tb/UUT/controller/counter
+run
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 210 ns  Iteration: 1  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 210 ns  Iteration: 1  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 210 ns  Iteration: 1  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 210 ns  Iteration: 1  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 210 ns  Iteration: 1  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 210 ns  Iteration: 1  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 210 ns  Iteration: 1  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 210 ns  Iteration: 1  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 210 ns  Iteration: 2  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 210 ns  Iteration: 2  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 210 ns  Iteration: 2  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 210 ns  Iteration: 2  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 210 ns  Iteration: 2  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 210 ns  Iteration: 2  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 210 ns  Iteration: 2  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 210 ns  Iteration: 2  Instance: /boothmul_tb/UUT/datapath/MUX3
+run
+run
+# Compile of booth_multiplier.vhd was successful.
+# Compile of shift_reg.vhd was successful.
+# Compile of reg.vhd was successful.
+# Compile of add_sub.vhd was successful.
+# Compile of counter.vhd was successful.
+# Compile of mux.vhd was successful.
+# Compile of mux3.vhd was successful.
+# Compile of Booth_Multiplier_TB.vhd was successful.
+# 8 compiles, 0 failed with no errors. 
+restart
+# Refreshing C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/work.boothmul_tb(tb)
+# Loading work.boothmul_tb(tb)
+# Refreshing C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/work.booth_multiplier(radix4)
+# Loading work.booth_multiplier(radix4)
+# Refreshing C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/work.booth_multiplier_datapath(radix4)
+# Loading work.booth_multiplier_datapath(radix4)
+# Refreshing C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/work.reg(arch)
+# Loading work.reg(arch)
+# Refreshing C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/work.mux3(arch)
+# Loading work.mux3(arch)
+# Refreshing C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/work.add_sub(arch)
+# Loading work.add_sub(arch)
+# Refreshing C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/work.shift_reg(arch)
+# Loading work.shift_reg(arch)
+# Refreshing C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/work.booth_multiplier_controller(radix4)
+# Loading work.booth_multiplier_controller(radix4)
+# Refreshing C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/work.counter(arch)
+# Loading work.counter(arch)
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /boothmul_tb/UUT/datapath/ADDSUB
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /boothmul_tb/UUT/datapath/ADDSUB
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /boothmul_tb/UUT/datapath/ADDSUB
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /boothmul_tb/UUT/datapath/ADDSUB
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /boothmul_tb/UUT/datapath/ADDSUB
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /boothmul_tb/UUT/datapath/ADDSUB
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /boothmul_tb/UUT/datapath/ADDSUB
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 3  Instance: /boothmul_tb/UUT/datapath/ADDSUB
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 0  Instance: /boothmul_tb/UUT/controller/counter
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 0  Instance: /boothmul_tb/UUT/controller/counter
+run
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 210 ns  Iteration: 1  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 210 ns  Iteration: 1  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 210 ns  Iteration: 1  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 210 ns  Iteration: 1  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 210 ns  Iteration: 1  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 210 ns  Iteration: 1  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 210 ns  Iteration: 1  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 210 ns  Iteration: 1  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 210 ns  Iteration: 2  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 210 ns  Iteration: 2  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 210 ns  Iteration: 2  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 210 ns  Iteration: 2  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 210 ns  Iteration: 2  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 210 ns  Iteration: 2  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 210 ns  Iteration: 2  Instance: /boothmul_tb/UUT/datapath/MUX3
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 210 ns  Iteration: 2  Instance: /boothmul_tb/UUT/datapath/MUX3
+run
+run
+run

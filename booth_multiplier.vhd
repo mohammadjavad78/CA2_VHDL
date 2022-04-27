@@ -23,12 +23,12 @@ ARCHITECTURE radix4 OF booth_multiplier_datapath IS
     SIGNAL AREGOUT:STD_LOGIC_VECTOR(bits-1 DOWNTO 0);
     SIGNAL AREGOUT0:STD_LOGIC_VECTOR(bits-1 DOWNTO 0);
     SIGNAL MUX3_out:STD_LOGIC_VECTOR(bits-1 DOWNTO 0);
-    SIGNAL MUX3_out_2:STD_LOGIC_VECTOR(bits+1 DOWNTO 0);
-    SIGNAL FINALREG_out1:STD_LOGIC_VECTOR(bits+1 DOWNTO 0);
+    SIGNAL MUX3_out_2:STD_LOGIC_VECTOR(bits DOWNTO 0);
+    SIGNAL FINALREG_out1:STD_LOGIC_VECTOR(bits DOWNTO 0);
     SIGNAL FINALREG_out1_2:STD_LOGIC_VECTOR(1 DOWNTO 0);
     SIGNAL FINALREG_out2:STD_LOGIC_VECTOR(2*bits DOWNTO 0);
-    SIGNAL add_sub_out:STD_LOGIC_VECTOR(bits+1 DOWNTO 0);
-    SIGNAL add_sub_out_shifted:STD_LOGIC_VECTOR(bits+1 DOWNTO 0);
+    SIGNAL add_sub_out:STD_LOGIC_VECTOR(bits DOWNTO 0);
+    SIGNAL add_sub_out_shifted:STD_LOGIC_VECTOR(bits DOWNTO 0);
     SIGNAL add_sub_out_2:STD_LOGIC_VECTOR(1 DOWNTO 0);
     SIGNAL in2_0:STD_LOGIC_VECTOR(2*bits DOWNTO 0);
 begin
@@ -37,15 +37,15 @@ begin
     in2_0(i)<=in2(bits-1);
     end generate;
     in2_0(bits downto 0)<=in2&'0';
-    MUX3_out_2<=AREGOUT(bits-1)&AREGOUT(bits-1)&MUX3_out when FINALREG_out2(2 DOWNTO 0)="011" else MUX3_out(bits-1)&MUX3_out(bits-1)&MUX3_out ;
+    MUX3_out_2<=AREGOUT(bits-1)&MUX3_out when FINALREG_out2(2 DOWNTO 0)="011" else MUX3_out(bits-1)&MUX3_out ;
     AREGOUT0<=AREGOUT(bits-2 DOWNTO 0)&'0';
-    add_sub_out_2<=(add_sub_out(bits+1)&add_sub_out(bits+1));
+    add_sub_out_2<=(add_sub_out(bits)&add_sub_out(bits));
     out1<=FINALREG_out1(bits-1 DOWNTO 0)&FINALREG_out2(2*bits DOWNTO bits+1);
-    add_sub_out_shifted<=(add_sub_out(bits+1)&add_sub_out(bits+1)&add_sub_out(bits+1 DOWNTO 2));
+    add_sub_out_shifted<=(add_sub_out(bits)&add_sub_out(bits)&add_sub_out(bits DOWNTO 2));
     AREG:ENTITY WORK.reg GENERIC MAP(bits=>bits) PORT MAP(in1=>in1,en=>AREG_en,clk=>clk,rst=>AREG_rst,loaden=>AREG_loaden,out1=>AREGOUT);
     MUX3:ENTITY WORK.mux3 GENERIC MAP(bits=>bits) PORT MAP(in1=>(OTHERS=>'0'),in2=>AREGOUT,in3=>AREGOUT,in4=>AREGOUT0,in5=>AREGOUT0,in6=>AREGOUT,in7=>AREGOUT,in8=>(OTHERS=>'0'),cin=>FINALREG_out2(2 DOWNTO 0),out1=>MUX3_out);
-    ADDSUB:ENTITY WORK.add_sub GENERIC MAP(bits=>bits+2) PORT MAP(in1=>FINALREG_out1,in2=>MUX3_out_2,cin=>FINALREG_out2(2),out1=>add_sub_out);
-    FINALREG1:ENTITY WORK.shift_reg GENERIC MAP(bits=>bits+2) PORT MAP(in1=>add_sub_out_shifted,inbit=>add_sub_out_2,en=>FINALREG_en1,clk=>clk,rst=>FINALREG_rst1,loaden=>FINALREG_loaden1,out1=>FINALREG_out1);
+    ADDSUB:ENTITY WORK.add_sub GENERIC MAP(bits=>bits+1) PORT MAP(in1=>FINALREG_out1,in2=>MUX3_out_2,cin=>FINALREG_out2(2),out1=>add_sub_out);
+    FINALREG1:ENTITY WORK.shift_reg GENERIC MAP(bits=>bits+1) PORT MAP(in1=>add_sub_out_shifted,inbit=>add_sub_out_2,en=>FINALREG_en1,clk=>clk,rst=>FINALREG_rst1,loaden=>FINALREG_loaden1,out1=>FINALREG_out1);
     FINALREG2:ENTITY WORK.shift_reg GENERIC MAP(bits=>2*bits+1) PORT MAP(in1=>in2_0,inbit=>add_sub_out(1 DOWNTO 0),en=>FINALREG_en2,clk=>clk,rst=>FINALREG_rst2,loaden=>FINALREG_loaden2,out1=>FINALREG_out2);
 END ARCHITECTURE;
 
