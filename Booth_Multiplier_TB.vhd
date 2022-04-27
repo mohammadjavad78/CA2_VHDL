@@ -7,15 +7,14 @@
 	ARCHITECTURE TB of BoothMul_TB is
 		SIGNAL clk :  STD_LOGIC := '0';
 		SIGNAL rst:  STD_LOGIC := '1';
-		SIGNAL X :  STD_LOGIC_VECTOR (7 DOWNTO 0);
-		SIGNAL Y :  STD_LOGIC_VECTOR (7 DOWNTO 0);
+		SIGNAL X :  STD_LOGIC_VECTOR (3 DOWNTO 0);
+		SIGNAL Y :  STD_LOGIC_VECTOR (3 DOWNTO 0);
 		SIGNAL startMUL :  STD_LOGIC :='0';
-		SIGNAL OUTR4 :  STD_LOGIC_VECTOR(15 DOWNTO 0);
+		SIGNAL OUTR4 :  STD_LOGIC_VECTOR(7 DOWNTO 0);
 		SIGNAL completeR4 :  STD_LOGIC;
 	BEGIN
 			--Unit Under Test Instantiation:
-		UUT : ENTITY work.booth_multiplier
-		PORT MAP (clk => clk, rst => rst, in1 => X,
+		UUT : ENTITY work.booth_multiplier generic map(bits=>4) PORT MAP (clk => clk, rst => rst, in1 => X,
 		in2 => Y , start=> startMUL,
 		out1 => OUTR4,completeR4=>completeR4);
 		-- clk generation:
@@ -23,7 +22,11 @@
 		tb1 : process
 		begin
 			rst <= '0' after 80 ns;
-			wait for 90 ns;startMUL <= '1'; X <= x"50";Y <= x"62";
+			wait for 200 ns;startMUL <= '1'; X <= x"7";Y <= x"7";
+			wait for 20 ns;startMUL <= '0'; 
+			wait for 90 ns;startMUL <= '1'; X <= x"f";Y <= x"f";
+			wait for 20 ns;startMUL <= '0'; 
+			wait for 90 ns;startMUL <= '1'; X <= x"f";Y <= x"7";
 			wait for 20 ns;startMUL <= '0'; 
 			-- wait for 20 ns;xInput <= x"0003";wait for 20 ns;xInput <= x"0004";
 			-- --changing the degree value in the middle of inpt application
