@@ -22,8 +22,8 @@ L4
 V3oUR7YD;b=RN<bMb6aeh40
 Z8 OE;C;10.2c;57
 32
-Z9 !s110 1650958880
-Z10 !s108 1650958880.675000
+Z9 !s110 1651056627
+Z10 !s108 1651056627.851000
 Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/add_sub.vhd|
 Z12 !s107 C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/add_sub.vhd|
 Z13 o-work work -2002 -explicit
@@ -52,7 +52,7 @@ R14
 !i10b 1
 !i111 0
 Ebooth_multiplier
-Z16 w1650958878
+Z16 w1651056555
 R3
 R4
 R5
@@ -60,38 +60,38 @@ Z17 8C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/booth_multiplier.vhd
 Z18 FC:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/booth_multiplier.vhd
 l0
 L156
-VU2QZ4_YJYEBU>0zh[24L30
+V>=Vn?dUC:aA[?KM^CBGB23
 R8
 32
 R9
-Z19 !s108 1650958880.370000
+Z19 !s108 1651056627.566000
 Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/booth_multiplier.vhd|
 Z21 !s107 C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/booth_multiplier.vhd|
 R13
 R14
-!s100 _ZRnnAgUmTYZo;`6V2LgJ3
+!s100 665gDfFJ0ZkAYXa^8h@Ma2
 !i10b 1
 !i111 0
 Aradix4
 Z22 DPx4 ieee 9 math_real 0 22 X1eFklFj<NHn@4Wz7P8j:2
 Z23 DPx4 ieee 11 numeric_std 0 22 WES[o8HS0jHV[MIXQk2Ha1
-Z24 DEx4 work 27 booth_multiplier_controller 0 22 Ln`3T?3Vl4@dZXHhhnW[Q2
-Z25 DEx4 work 25 booth_multiplier_datapath 0 22 o9z=lXTn@zLG6dY?5TO;C2
+Z24 DEx4 work 27 booth_multiplier_controller 0 22 ;gOhf_LGVbF3bG7S`ideJ3
+Z25 DEx4 work 25 booth_multiplier_datapath 0 22 :H2nH7gK>gRfWS=dYIzP`3
 R3
 R4
-DEx4 work 16 booth_multiplier 0 22 U2QZ4_YJYEBU>0zh[24L30
+Z26 DEx4 work 16 booth_multiplier 0 22 >=Vn?dUC:aA[?KM^CBGB23
 32
 R9
-l177
-L167
-V:iQ;42b<z6n=E@nMNGV<?0
+l178
+L168
+VYiCa<KRGBOd[CZ>GB]M0W3
 R8
 R19
 R20
 R21
 R13
 R14
-!s100 9P2IZB4Y94<TzjWfY_PYS1
+!s100 bAW8A>7FJ7n=jUFTAZ6aN1
 !i10b 1
 !i111 0
 Ebooth_multiplier_controller
@@ -104,8 +104,8 @@ R5
 R17
 R18
 l0
-L58
-VLn`3T?3Vl4@dZXHhhnW[Q2
+L57
+V;gOhf_LGVbF3bG7S`ideJ3
 R8
 32
 R9
@@ -114,13 +114,13 @@ R20
 R21
 R13
 R14
-!s100 cSb8BMBj;m_WQU4AlP5CJ3
+!s100 PQdOmfI:c?FZMnBCORBcG2
 !i10b 1
 !i111 0
 Aradix4
 R1
 R2
-Z26 DEx4 work 7 counter 0 22 L]?>SzE13ek17T:k;a_WB0
+Z27 DEx4 work 7 counter 0 22 L]?>SzE13ek17T:k;a_WB0
 R22
 R23
 R3
@@ -130,14 +130,14 @@ R24
 R9
 l87
 L76
-VPi[iY9ofhRVFRCffXC[d01
+VOLMPS?S@NhL0Tn_CaLJG_0
 R8
 R19
 R20
 R21
 R13
 R14
-!s100 [hikh`h[iK50@L33<l5BP2
+!s100 8i8j4QMQoj>S7oDf`V>JR2
 !i10b 1
 !i111 0
 Ebooth_multiplier_datapath
@@ -149,7 +149,7 @@ R17
 R18
 l0
 L4
-Vo9z=lXTn@zLG6dY?5TO;C2
+V:H2nH7gK>gRfWS=dYIzP`3
 R8
 32
 R9
@@ -158,51 +158,95 @@ R20
 R21
 R13
 R14
-!s100 WBJRozi;9oMWLFN4@8]nS0
+!s100 dPO=6kZicXJYL=ZK^UUTQ0
 !i10b 1
 !i111 0
 Aradix4
-Z27 DEx4 work 9 shift_reg 0 22 iX9gXZEi<>T5GHY9K4L:a3
+Z28 DEx4 work 9 shift_reg 0 22 iX9gXZEi<>T5GHY9K4L:a3
 R15
 R1
 R2
-Z28 DEx4 work 4 mux3 0 22 7i6gianZ0n1EDeRzKFFJe2
-Z29 DEx4 work 3 reg 0 22 EW3:[J07Q_3jA1g6V]ZNb1
+Z29 DEx4 work 4 mux3 0 22 7i6gianZ0n1EDeRzKFFJe2
+Z30 DEx4 work 3 reg 0 22 EW3:[J07Q_3jA1g6V]ZNb1
 R3
 R4
 R25
 32
 R9
-l34
+l33
 L22
-V;QZa=k^G>J6CZL^MR;A>R0
+VefbSg`=;5gRo1Oe5^YcWA3
 R8
 R19
 R20
 R21
 R13
 R14
-!s100 7I9CX?MFejjEcf32cCWQU1
+!s100 <93iY1E;5[aGmM76N^7zb3
 !i10b 1
 !i111 0
-Ecounter
-Z30 w1650880776
+Eboothmul_tb
+Z31 w1651056624
 R1
 R2
 R3
 R4
 R5
-Z31 8C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/counter.vhd
-Z32 FC:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/counter.vhd
+Z32 8C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/Booth_Multiplier_TB.vhd
+Z33 FC:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/Booth_Multiplier_TB.vhd
+l0
+L5
+VCe0YW;IiHGGWBQ5mK^YZ90
+R8
+32
+Z34 !s110 1651056628
+Z35 !s108 1651056628.242000
+Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/Booth_Multiplier_TB.vhd|
+Z37 !s107 C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/Booth_Multiplier_TB.vhd|
+R13
+R14
+!s100 iWB9GAME;W0bEi<47]KP=3
+!i10b 1
+!i111 0
+Atb
+R26
+R1
+R2
+R3
+R4
+DEx4 work 11 boothmul_tb 0 22 Ce0YW;IiHGGWBQ5mK^YZ90
+32
+R34
+l15
+L7
+V46aFPaFg]oMYU00C]RKo[0
+R8
+R35
+R36
+R37
+R13
+R14
+!s100 3Q<giKgfTV4`N^F567mfn2
+!i10b 1
+!i111 0
+Ecounter
+Z38 w1650880776
+R1
+R2
+R3
+R4
+R5
+Z39 8C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/counter.vhd
+Z40 FC:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/counter.vhd
 l0
 L4
 VL]?>SzE13ek17T:k;a_WB0
 R8
 32
 R9
-Z33 !s108 1650958880.751000
-Z34 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/counter.vhd|
-Z35 !s107 C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/counter.vhd|
+Z41 !s108 1651056627.943000
+Z42 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/counter.vhd|
+Z43 !s107 C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/counter.vhd|
 R13
 R14
 !s100 A4Wg9<==JR7``neGocFm41
@@ -213,39 +257,39 @@ R1
 R2
 R3
 R4
-R26
+R27
 32
 R9
 l16
 L14
 VIBGlHQ>N6^aoHTmfYOe4o3
 R8
-R33
-R34
-R35
+R41
+R42
+R43
 R13
 R14
 !s100 c<oXQjd4GzO3a5@gYU9HC3
 !i10b 1
 !i111 0
 Emux
-Z36 w1650815806
+Z44 w1650815806
 R1
 R2
 R3
 R4
 R5
-Z37 8C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/mux.vhd
-Z38 FC:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/mux.vhd
+Z45 8C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/mux.vhd
+Z46 FC:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/mux.vhd
 l0
 L4
 VKmNDlQ:FWEKj@_R2TcJd91
 R8
 32
-R9
-Z39 !s108 1650958880.852000
-Z40 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/mux.vhd|
-Z41 !s107 C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/mux.vhd|
+R34
+Z47 !s108 1651056628.037000
+Z48 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/mux.vhd|
+Z49 !s107 C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/mux.vhd|
 R13
 R14
 !s100 j=V[z@ATcLBR>WRLdGmTc1
@@ -262,33 +306,33 @@ L13
 V6i@S]eiYHL]RMEFE6VzH^2
 R8
 32
-R9
-R39
-R40
-R41
+R34
+R47
+R48
+R49
 R13
 R14
 !s100 C<3B@48b<[6HIPnh_W_jL1
 !i10b 1
 !i111 0
 Emux3
-Z42 w1650891749
+Z50 w1650891749
 R1
 R2
 R3
 R4
 R5
-Z43 8C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/mux3.vhd
-Z44 FC:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/mux3.vhd
+Z51 8C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/mux3.vhd
+Z52 FC:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/mux3.vhd
 l0
 L4
 V7i6gianZ0n1EDeRzKFFJe2
 R8
 32
-R9
-Z45 !s108 1650958880.929000
-Z46 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/mux3.vhd|
-Z47 !s107 C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/mux3.vhd|
+R34
+Z53 !s108 1651056628.141000
+Z54 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/mux3.vhd|
+Z55 !s107 C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/mux3.vhd|
 R13
 R14
 !s100 jo;::c7bNnlS4<_ho1Dj12
@@ -299,37 +343,37 @@ R1
 R2
 R3
 R4
-R28
+R29
 32
-R9
+R34
 l14
 L13
 VA_[LZYIo@?omJ5O?9_?152
 R8
-R45
-R46
-R47
+R53
+R54
+R55
 R13
 R14
 !s100 M;cERCCiL4daEB_O64JaE1
 !i10b 1
 !i111 0
 Ereg
-Z48 w1650792691
+Z56 w1650792691
 R3
 R4
 R5
-Z49 8C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/reg.vhd
-Z50 FC:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/reg.vhd
+Z57 8C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/reg.vhd
+Z58 FC:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/reg.vhd
 l0
 L4
 VEW3:[J07Q_3jA1g6V]ZNb1
 R8
 32
 R9
-Z51 !s108 1650958880.585000
-Z52 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/reg.vhd|
-Z53 !s107 C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/reg.vhd|
+Z59 !s108 1651056627.768000
+Z60 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/reg.vhd|
+Z61 !s107 C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/reg.vhd|
 R13
 R14
 !s100 A6HS9C@_EY>=b8DCS_aiA0
@@ -338,37 +382,37 @@ R14
 Aarch
 R3
 R4
-R29
+R30
 32
 R9
 l17
 L16
 V_[>DPK^7_lam;li]BOUZa1
 R8
-R51
-R52
-R53
+R59
+R60
+R61
 R13
 R14
 !s100 9TC7[En4D92mMJkZHTK3R2
 !i10b 1
 !i111 0
 Eshift_reg
-Z54 w1650905117
+Z62 w1650905117
 R3
 R4
 R5
-Z55 8C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/shift_reg.vhd
-Z56 FC:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/shift_reg.vhd
+Z63 8C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/shift_reg.vhd
+Z64 FC:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/shift_reg.vhd
 l0
 L4
 ViX9gXZEi<>T5GHY9K4L:a3
 R8
 32
 R9
-Z57 !s108 1650958880.501000
-Z58 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/shift_reg.vhd|
-Z59 !s107 C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/shift_reg.vhd|
+Z65 !s108 1651056627.681000
+Z66 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/shift_reg.vhd|
+Z67 !s107 C:/Users/moham/OneDrive/Desktop/VHDL_PROJ/VHDL_CA2/shift_reg.vhd|
 R13
 R14
 !s100 f10i_X;n6_mHmY@:@_4mY0
@@ -377,16 +421,16 @@ R14
 Aarch
 R3
 R4
-R27
+R28
 32
 R9
 l19
 L17
 V<a]_=;=W;KVG3n_RgFk0n3
 R8
-R57
-R58
-R59
+R65
+R66
+R67
 R13
 R14
 !s100 fS;;9d72Fan@fRcleX^<D1
